@@ -1,68 +1,138 @@
-# ◆ ARTEFACT — React Native Ecommerce App
+# 🛍️ TerraBuy — React Native Ecommerce App
 
-A premium ecommerce mobile app with a distinctive editorial aesthetic — dark ink tones, warm cream accents, and rust orange highlights.
+A modern ecommerce mobile application built using React Native with a premium editorial design — featuring dark ink tones, warm cream accents, and rust highlights.
 
-## Features
+---
 
-- **Auth Flow** — Login & Signup with validation and local state management
-- **Home Screen** — Product grid with category filter, search, and badges
-- **Product Detail** — Full product view with add-to-cart
-- **Cart Screen** — Quantity control, remove items, order summary, checkout
-- **Redux Toolkit** — Global cart & auth state management
-- **NativeWind** — Tailwind CSS styling for React Native
+## 🚀 Features
 
-## Setup
+- 🔐 **Authentication Flow**
+  - Login & Signup with validation
+  - Local state management
+
+- 🏠 **Home Screen**
+  - Product grid layout
+  - Category filtering
+  - Search functionality
+  - Product badges (New, Trending, etc.)
+
+- 📦 **Product Detail Screen**
+  - Detailed product view
+  - Add to cart functionality
+
+- 🛒 **Cart Screen**
+  - Quantity control
+  - Remove items
+  - Order summary & checkout
+
+- ⚙️ **State Management**
+  - Redux Toolkit for global state (Cart & Auth)
+
+- 🎨 **UI Styling**
+  - NativeWind (Tailwind CSS for React Native)
+
+---
+
+## 📱 Screens Preview (Optional)
+
+_Add screenshots here for better impact_
+
+---
+
+## 🛠️ Tech Stack
+
+- React Native (Expo)
+- Redux Toolkit
+- NativeWind (Tailwind CSS)
+- JavaScript (ES6+)
+
+---
+
+## ⚡ Setup & Installation
 
 ```bash
-# 1. Install dependencies
+# Clone the repository
+git clone https://github.com/your-username/terrabuy.git
+
+# Navigate into the project
+cd terrabuy
+
+# Install dependencies
 npm install
 
-# 2. Start Expo
+# Start the app
 npx expo start
-```
 
-Scan the QR code with **Expo Go** on your phone, or press `i` for iOS simulator / `a` for Android emulator.
+📲 Scan the QR code using Expo Go
+or press:
 
-## Demo Account
+a → Android Emulator
+i → iOS Simulator
 
-```
+🔑 Demo Account
 Email:    demo@shop.com
 Password: demo123
-```
 
-Or create a new account from the Sign Up tab.
+Or create a new account via Sign Up.
 
-## Project Structure
-
-```
+📂 Project Structure
 ShopApp/
-├── App.js                          # Root with Redux Provider
-├── babel.config.js                 # NativeWind babel plugin
-├── tailwind.config.js              # Tailwind theme config
+├── App.js
+├── babel.config.js
+├── tailwind.config.js
 ├── package.json
 └── src/
     ├── data/
-    │   └── products.js             # 8 dummy products
+    │   └── products.js
     ├── redux/
-    │   ├── store.js                # Redux store
-    │   ├── cartSlice.js            # Cart state (add/remove/qty)
-    │   └── authSlice.js            # Auth state (login/signup/logout)
+    │   ├── store.js
+    │   ├── cartSlice.js
+    │   └── authSlice.js
     ├── navigation/
-    │   └── AppNavigator.js         # Stack navigator, auth gating
+    │   └── AppNavigator.js
     └── screens/
-        ├── AuthScreen.js           # Login / Signup
-        ├── HomeScreen.js           # Product grid + search + filter
-        ├── ProductDetailScreen.js  # Product info + add to cart
-        └── CartScreen.js           # Cart management + checkout
-```
+        ├── AuthScreen.js
+        ├── HomeScreen.js
+        ├── ProductDetailScreen.js
+        └── CartScreen.js
+🎨 Design System
+Token	Color	Usage
+ink	#0D0D0D	Primary dark, headers
+paper	#F5F0E8	Background, cards
+cream	#EDE8DC	Inputs, subtle UI elements
+rust	#C4522A	Buttons, prices, highlights
+gold	#D4A853	Accents, ratings
+sage	#7A8C6E	Success states, badges
+📌 Future Enhancements
+🔗 Backend integration (Node.js / Firebase)
+💳 Payment gateway integration
+❤️ Wishlist feature
+🔔 Push notifications
+🌐 API-based product data
+👩‍💻 Author
 
-## Design System
+Reshma Kannan
+Aspiring Software Engineer
 
-| Token   | Color     | Usage                        |
-|---------|-----------|------------------------------|
-| ink     | `#0D0D0D` | Primary dark, headers        |
-| paper   | `#F5F0E8` | Background, cards            |
-| cream   | `#EDE8DC` | Inputs, chips, subtle fills  |
-| rust    | `#C4522A` | CTA buttons, prices, badges  |
-| gold    | `#D4A853` | Brand accent, stars, labels  |
-| sage    | `#7A8C6E` | Success states, "New" badge  |
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
+---
+
+## 🔥 What I improved
+- Added **emojis → more attractive**
+- Added **Tech Stack section (important for recruiters)**
+- Added **Future Enhations (shows thinking ability)**
+- Improved **wording & clarity**
+- Made it **portfolio-ready**
+
+---
+
+If you want next level 💯, I can:
+- Add **screenshots section (with captions)**
+- Write **LinkedIn post to showcase this project**
+- Help you **deploy + GitHub repo setup properly**
+
+Just tell me 👍
