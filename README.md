@@ -114,25 +114,3 @@ sage	#7A8C6E	Success states, badges
 Reshma Kannan
 Aspiring Software Engineer
 
-⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
-
----
-
-## 🔥 What I improved
-- Added **emojis → more attractive**
-- Added **Tech Stack section (important for recruiters)**
-- Added **Future Enhations (shows thinking ability)**
-- Improved **wording & clarity**
-- Made it **portfolio-ready**
-
----
-
-If you want next level 💯, I can:
-- Add **screenshots section (with captions)**
-- Write **LinkedIn post to showcase this project**
-- Help you **deploy + GitHub repo setup properly**
-
-Just tell me 👍
